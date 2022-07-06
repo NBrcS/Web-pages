@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: rgba(var(--b3f,250,250,250),1);
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.biggest-container{
+    display: flex;
+    width: 320px;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-photos img{
+    display: flex;
+    width: 360px;
+    height: 540px;
+}
+
+.instagram-l-funcionalities{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.instagram-logo{
+    width: 175px;
+    height: 71px;
+}
+
+.profile-photo{
+    width: 120px;
+    height: 102px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.continue-button{
+    background-color: rgba(var(--d69,0,149,246),1);
+    padding: 5px 9px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 545;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.blue-clickable{
+    background-color: white;
+    margin-top: 10px;
+    color: rgba(var(--d69,0,149,246),1);
+}
+
+.support-container{
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+    color: rgb(136, 136, 136);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.merchant-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.download-options{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.app-Store{
+    width: 160px;
+    height: 90px;
+}
+
+.play-Store{
+    width: 160px;
+    height: 120px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: rgba(35, 0, 68, 0.808);
+    color: white;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
